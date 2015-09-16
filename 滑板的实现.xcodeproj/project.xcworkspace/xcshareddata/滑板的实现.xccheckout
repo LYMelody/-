@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0D07CCB2-F3CD-4315-BB8B-C59776481BB3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>50f2f4bb-b051-0410-bef5-90022cba6387++3126</key>
+		<string>https://src.springframework.org/svn/spring-framework/trunk/org.springframework.context</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>滑板的实现/滑板的实现.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>50f2f4bb-b051-0410-bef5-90022cba6387++3126</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>50f2f4bb-b051-0410-bef5-90022cba6387++3126</key>
+		<string>https://src.springframework.org/svn/spring-framework</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://src.springframework.org/svn/spring-framework/trunk/org.springframework.context/%E6%BB%91%E6%9D%BF%E7%9A%84%E5%AE%9E%E7%8E%B0/%E6%BB%91%E6%9D%BF%E7%9A%84%E5%AE%9E%E7%8E%B0.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>50f2f4bb-b051-0410-bef5-90022cba6387++3126</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>50f2f4bb-b051-0410-bef5-90022cba6387++3126</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Protice</string>
+		</dict>
+	</array>
+</dict>
+</plist>
