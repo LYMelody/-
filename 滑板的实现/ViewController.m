@@ -35,9 +35,9 @@
         pannelView.drawcolor = color;
     } andSelectLineblock:^(CGFloat linewidth) {
         pannelView.drawline = linewidth;
-    } anderaseblock:^{
+    } anderaseblock:^(CGFloat eraselinewidth){
         pannelView.drawcolor = [UIColor whiteColor];
-        pannelView.drawline = 10.0f;
+        pannelView.drawline = eraselinewidth;
     } andundoblock:^{
         [pannelView undo];
     } andclearblock:^{

@@ -15,7 +15,7 @@
     [self createbuttonView];
     [self createcolorView];
     [self createlineView];
-    
+    [self createeraseView];
 }
 
 
@@ -100,7 +100,27 @@
     
 }
 
+- (void)createeraseView {
+    _eraseView  = [[UIView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(_buttonView.frame), kScreenWidth, 60)];
+    _eraseView.backgroundColor = [UIColor grayColor];
+    [self addSubview:_eraseView];
+    _eraseView.hidden = YES;
+    eraselinearray = @[@10.0,@13.0,@15.0,@18.0,@20.0,@22.0,@24.0];
+    CGFloat width = kScreenWidth/eraselinearray.count;
+    for (NSInteger i = 0;i < eraselinearray.count;i++) {
+        
+        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(i*width,5, width, 40)];
+        [button setTitle:[NSString stringWithFormat:@"%@点",eraselinearray[i]] forState:UIControlStateNormal];
+        button.tag = i;
+        [button addTarget:self action:@selector(selecteraseline:) forControlEvents:UIControlEventTouchUpInside];
+        button.backgroundColor = [UIColor clearColor];
+        [_eraseView addSubview:button];
+        
+    }
 
+    
+    
+}
 
 - (void)clickbutton:(Selectbutton *)btn {
     
@@ -113,15 +133,17 @@
         case 0://颜色
             _colorView.hidden = NO;
             lineView.hidden = YES;
+            _eraseView.hidden = YES;
             break;
         case 1://线宽
             _colorView.hidden = YES;
             lineView.hidden = NO;
+            _eraseView.hidden = YES;
             break;
         case 2://橡皮
-            if (_eraseblock != nil) {
-                _eraseblock();
-            }
+            _colorView.hidden = YES;
+            lineView.hidden = YES;
+            _eraseView.hidden = NO;
             break;
         case 3://撤销
             if (_undoblock != nil) {
@@ -164,7 +186,20 @@
     
 }
 
-- (void)addSelectColorblock:(SelectColorBlock)selectcolorblock andSelectLineblock:(SelectLineWidthBlock)selectlineblock anderaseblock:(OtherBlock)eraseblock andundoblock:(OtherBlock)undoblock andclearblock:(OtherBlock)clearblock{
+
+- (void)selecteraseline:(UIButton *)btn {
+    
+    CGFloat width = [eraselinearray[btn.tag] floatValue];
+    
+    
+    if (_eraseblock != nil) {
+        _eraseblock(width);
+    }
+
+    
+    
+}
+- (void)addSelectColorblock:(SelectColorBlock)selectcolorblock andSelectLineblock:(SelectLineWidthBlock)selectlineblock anderaseblock:(EraseBlock)eraseblock andundoblock:(OtherBlock)undoblock andclearblock:(OtherBlock)clearblock{
     
     if (_colorblock != selectcolorblock) {
         _colorblock = [selectcolorblock copy];

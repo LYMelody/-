@@ -7,39 +7,34 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>0D07CCB2-F3CD-4315-BB8B-C59776481BB3</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>滑板的实现</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>50f2f4bb-b051-0410-bef5-90022cba6387++3126</key>
-		<string>https://src.springframework.org/svn/spring-framework/trunk/org.springframework.context</string>
+		<key>01FFD20088A9911CED78BDDFA8C70A9849DC94FD</key>
+		<string>https://github.com/LYMelody/-.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>滑板的实现/滑板的实现.xcodeproj/project.xcworkspace</string>
+	<string>滑板的实现.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>50f2f4bb-b051-0410-bef5-90022cba6387++3126</key>
-		<string>../../..</string>
-	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>50f2f4bb-b051-0410-bef5-90022cba6387++3126</key>
-		<string>https://src.springframework.org/svn/spring-framework</string>
+		<key>01FFD20088A9911CED78BDDFA8C70A9849DC94FD</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://src.springframework.org/svn/spring-framework/trunk/org.springframework.context/%E6%BB%91%E6%9D%BF%E7%9A%84%E5%AE%9E%E7%8E%B0/%E6%BB%91%E6%9D%BF%E7%9A%84%E5%AE%9E%E7%8E%B0.xcodeproj/project.xcworkspace</string>
+	<string>https://github.com/LYMelody/-.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>50f2f4bb-b051-0410-bef5-90022cba6387++3126</string>
+	<string>01FFD20088A9911CED78BDDFA8C70A9849DC94FD</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>50f2f4bb-b051-0410-bef5-90022cba6387++3126</string>
+			<string>01FFD20088A9911CED78BDDFA8C70A9849DC94FD</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Protice</string>
+			<string>%E7%AE%80%E5%8D%95%E7%94%BB%E6%9D%BF%E7%9A%84%E5%AE%9E%E7%8E%B0</string>
 		</dict>
 	</array>
 </dict>
